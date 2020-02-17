@@ -16,7 +16,7 @@ module.exports = class Cache {
   }
 
   del(keys) {
-    cache.del(keys);
+    cache.delete(keys);
   }
 
   flush() {
